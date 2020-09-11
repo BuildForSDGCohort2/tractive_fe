@@ -1,10 +1,16 @@
 .pro{
-/*background-image: url("/images/cycle.png");
- background-repeat: no-repeat;*/
- background-color: rgba(100, 168, 27, 0.9);
+background-image: url("/images/cycle.png");
+ background-repeat: no-repeat;
  z-index: 2; 
  text-align: center;
+background-position: center;
+  background-size:cover;
+  height: 250px; 
+}
 
+.why{
+	height: 50px; 
+	background-color: rgba(100, 168, 27, 0.9);
 }
 
 .row1{

@@ -7,11 +7,11 @@ class Rows extends Component {
   render() {
     return (
         <div>
-            <div className="container-fluid font-weight-bold text-center text-white pro">
-            <p className="h2 mt-5 font-weight-bold">Why Tractive ?</p>
+            <div className="container-fluid font-weight-bold text-center text-white">
+            <p className="h2 mt-5 font-weight-bold why">Why Tractive ?</p>
                 <div className="row">
                 <div className="col-sm-12 col-md-4 pro">
-                    <p className="h4 font-weight-bold mt-4">The Problem</p>
+                    <p className="h4 font-weight-bold mt-5">The Problem</p>
                     <p>Smallholder farmers don’t have the 
                     machinery they need to fully cultivate
                     their land. Tractors and farm equipment
@@ -19,14 +19,14 @@ class Rows extends Component {
                     nonexistent. </p>
                 </div> 
                 <div className=" col-sm-12 col-md-4 pro">
-                <p className="h4 font-weight-bold mt-4"> The Solution</p>
+                <p className="h4 font-weight-bold mt-5"> The Solution</p>
                     <p >To address tractor availability, we came 
                         up with a platform that connects 
                         farmers looking for tractors with tractor 
                         owners looking for work.</p>
                 </div> 
                 <div className=" col-sm-12 col-md-4 pro">
-                <p className="h4 font-weight-bold mt-4">The Expected Result</p>
+                <p className="h4 font-weight-bold mt-5">The Expected Result</p>
                     <p>With this solution we believe we can 
                         confront food insecurity in africa and 
                         improve the livelihoods of hundreds of 

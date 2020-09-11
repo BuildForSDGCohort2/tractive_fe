@@ -7,7 +7,7 @@ export default class Navbar extends Component {
   render() {
     return (
 
-<nav className="navbar navbar-expand-lg navbar-light bg-success shadow  mobile-color">
+<nav className="navbar navbar-expand-lg navbar-light bg-success shadow mobile-color">
     <div className="container">
       <a className="navbar-brand font-weight-bolder text-light nav-text-head tractive-logo" href="/" >Tractive</a>
       <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
