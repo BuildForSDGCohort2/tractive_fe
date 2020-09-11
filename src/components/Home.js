@@ -18,7 +18,7 @@ class Home extends Component {
           />
           <Carousel.Caption>
           
-          <h2 className="mt-3"> We connect farmers looking for tractors with tractor owners looking for work</h2>
+          <h2 className="mb-3 display-3"> We connect farmers looking for tractors with tractor owners looking for work</h2>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -30,7 +30,7 @@ class Home extends Component {
           />
           <Carousel.Caption>
           
-          <h2 className="mt-3"> We connect farmers looking for tractors with tractor owners looking for work</h2>
+          <h2 className="mb-3 display-3"> We connect farmers looking for tractors with tractor owners looking for work</h2>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -41,7 +41,7 @@ class Home extends Component {
           />
       
           <Carousel.Caption>
-          <h2 className="mt-3"> We connect farmers looking for tractors with tractor owners looking for work</h2>
+          <h2 className="mt-b display-3"> We connect farmers looking for tractors with tractor owners looking for work</h2>
           </Carousel.Caption>
         </Carousel.Item>
         
@@ -53,7 +53,7 @@ class Home extends Component {
           />
       
           <Carousel.Caption>
-          <h2 className="mt-3"> We connect farmers looking for tractors with tractor owners looking for work</h2>
+          <h2 className="mb-3 display-3"> We connect farmers looking for tractors with tractor owners looking for work</h2>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
