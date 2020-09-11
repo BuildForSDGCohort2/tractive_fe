@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Owner from './components/Owner';
-import Rows from "./components/Rows"
+import Footer from "./components/Footer"
 
 // import EditUser from './components/EditUser';
 
@@ -19,9 +19,10 @@ class App extends Component {
         <div className="App">
           <Navbar />
           <Route path="/" exact strict component={Home}/>
-          <Rows />
+          {/* <Rows /> */}
           <Route path="/owners/signup" exact strict component={Owner}/>
         </div>
+        <Footer />
       </Router>
     );
   }

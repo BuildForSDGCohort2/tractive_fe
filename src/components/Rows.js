@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import "./Rows.css"
 
 // rows after heroSection in the homePage
@@ -76,8 +77,9 @@ class Rows extends Component {
                     <p    > <span> <img src="images/bullet.png" alt="" /> </span> Get access to markets and marketers as well as transporters of farm produce without spending a single kobo </p>
                     <br/>
                     <p  className="font-weight-bold"> <span><img src="images/bullet.png" alt="" /> </span> Are you a farmer looking for durable & reliable tractors and farm equipments that helps you finish jobs in hours instead of weeks. </p>
-                    
-                    <p><a href="/" class="btn btn-success btn-large morebtn">Get tractors »</a></p>
+                    <Link to="">
+                      <button className="btn btn-success btn-large morebtn">Get tractors »</button>
+                    </Link> 
             </div>  
             <div className="col-sm-12 col-lg-12 col-xl-6">
                 <img className="m-4" src="/images/farmy.png" alt="" />
@@ -101,7 +103,9 @@ class Rows extends Component {
                                                                                     <br/>
                      <p  className="font-weight-bold" > <span> <img src="images/bullet.png" alt="" /> </span> Do you own a tractor or any implement? We help you make extra cash with
                       your farm equipment and provide a number of tools to enhance your business and operations.</p>
-                   <p><a href="/" class="btn btn-success btn-large morebtn">Get Customers »</a></p>
+                    <Link to="">
+                      <button className="btn btn-success btn-large morebtn">Get Customers »</button>
+                    </Link> 
             </div>  
             {/* <div className="col-1"></div>              */}
             <div className="col-sm-12 col-lg-12 col-xl-6">
@@ -125,8 +129,9 @@ class Rows extends Component {
                     <br/>
                    <p className="font-weight-bold"> <span> <img src="images/bullet.png" alt="" /> </span> Are you looking for a life-time opportunities in Agritech business? 
                        We will train you and add you to our own network of booking agents to help reach farmers in need of tractor service.</p> 
-
-                    <p><a href="/" class="btn btn-success btn-large morebtn">Make Money »</a></p>
+                    <Link to="">
+                      <button className="btn btn-success btn-large morebtn">Make Money »</button>
+                    </Link> 
             </div>  
             {/* <div className="col-1"></div>              */}
             <div className="col-sm-12 col-lg-12 col-xl-6">
@@ -174,46 +179,14 @@ class Rows extends Component {
             <div className="col-12 text-center GetInTouch">
                 <p className="h3 text-white font-weight-bold touch mt-5">Get In Touch</p>
                 <p className="text-white mt-3">Join us as we harness the power of mechanization in the transformation of our agricultural sector.</p>
-                <p><a href="/" className="btn btn-success btn-large touchbtn">Get In Touch »</a></p>
+                <Link to="">
+                      <button className="btn btn-success btn-large morebtn">Get In Touch »</button>
+                </Link> 
             </div>
         </div>
-        <div className="row footer1">
-            <div className="col-sm-12 col-lg-6 text-center footer">
-                <div className="row">
-                    <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6">
-                    <p className="h4 text-white font-weight-bold touch mt-5">Sign up for our Newsletter</p>
-                        <p className="text-white mt-3">Get to know updates in the field of mechanized agriculture and know how often our tractors are hired.</p>
-                    </div>
-                </div>
-             </div>
-            <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 footer">
-            <form className="m-3 home-newsletter" onSubmit={this.onSubmit}>
-                <div className="single">
-                <p className="h4 text-white touch mt-5 newsLetterEmail">Your Email</p>
-                <input className="newsLetter" type="text"  placeholder="example@email.com" />
-                    <button type="submit" className="btn btn-theme">Subscribe<i className="fa fa-envelope"></i></button>
-                </div>   
-            </form>
-            <div className="row mt-4 text-white">
-                <div className="col-6">
-                <p className="font-weight-bold">Quick links</p>
-                <p><a href="/" className="text-white">Contact Us </a> </p>
-                <p><a href="/" className="text-white">About Us </a> </p>
-                <p><a href="/" className="text-white">Terms and Condition </a> </p>
-                </div>
-                
-                <div className="col-6">
-                <p className="font-weight-bold">Social media</p>
-                <p><a href="/" className="text-white">Facebooks</a> </p>
-                <p><a href="/" className="text-white"> Twitter</a> </p>
-                <p><a href="/" className="text-white">  Linkedin </a></p>
-                </div>
-
-            </div>
-            </div>
-        </div>
-    </div>  
-    <p className=" text-white font-weight-bold attractive"> Copyright &copy; 2020 | Tractive Nigeria</p>
+       
+</div>  
+   
  </div>
 
     )

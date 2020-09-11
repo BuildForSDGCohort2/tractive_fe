@@ -15,27 +15,30 @@ export default class Navbar extends Component {
           </button>
       <div className="collapse navbar-collapse" id="navbarResponsive">
         
-      <form className="form-inline ml-auto" onSubmit={this.onSubmit}>
-        <div>
-        <input className="form-control mr-sm-2" type="text"  placeholder="Search Fleets" />
-                <button type="submit" className="btn btn-outline-light">Search</button>
-        
-        </div>
-                    </form>
+        <form className="form-inline ml-auto" onSubmit={this.onSubmit}>
+          <div>
+          <input className="form-control mr-sm-2" type="text"  placeholder="Search Fleets" />
+                  <button type="submit" className="btn btn-outline-light">Search</button>
+          </div>
+        </form>
 
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
                     <Link
-                        className="nav-link text-light font-weight-bold " to="/">Fleets
+                        className="nav-link text-light font-weight-bold " to="">Fleets
                         <span class="sr-only">(current)</span>
                     </Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link text-light font-weight-bold " to="/users">Contact Us
+                    <Link className="nav-link text-light font-weight-bold " to="">Contact Us
                     </Link>               
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link text-light font-weight-bold" to="/add">Join Us
+                    <Link className="nav-link text-light font-weight-bold " to="">About Us
+                    </Link>               
+                </li>
+                <li className="nav-item">
+                    <Link className="nav-link text-light font-weight-bold" to="">Join Us
                     </Link>               
                 </li>
         </ul>
