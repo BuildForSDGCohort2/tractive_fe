@@ -67,7 +67,7 @@ class Rows extends Component {
     <p className="h2 font-weight-bold">What We Offer</p>
      <div className="container-fluid mt-5">
          <div className="row">
-            <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6">
+            <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 m-4">
                     <img className="ml-5 farmer01" src="/images/01.png" alt="" />
                     <p className="h3 mt-5 font-weight-bold">For Farmers </p>
                     <p> Farmers are our friends, they produce what we eat at our homes and use at our industries, we understand your challenges of getting access to 
@@ -81,7 +81,7 @@ class Rows extends Component {
                       <button className="btn btn-success btn-large morebtn">Get tractors »</button>
                     </Link> 
             </div>  
-            <div className="col-sm-12 col-lg-12 col-xl-6">
+            <div className="col-sm-12 col-lg-12 col-xl-5">
                 <img className="m-4" src="/images/farmy.png" alt="" />
         </div>
             {/* <div className="col-1"></div>              */}
@@ -89,7 +89,7 @@ class Rows extends Component {
     </div>
     <div className="container-fluid mt-5 row2">
      <div className="row">
-            <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6">
+            <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 m-4">
                     <img className="ml-5 farmer01" src="/images/02.png" alt="" />
                     <p className="h3 mt-5 font-weight-bold">For Fleet Owners </p>
                     <p> Fleet Owners are our masters, they are farmers's confidant. they made farming easier as they provides machines, tools and equipment to make farming 
@@ -108,14 +108,14 @@ class Rows extends Component {
                     </Link> 
             </div>  
             {/* <div className="col-1"></div>              */}
-            <div className="col-sm-12 col-lg-12 col-xl-6">
+            <div className="col-sm-12 col-lg-12 col-xl-5">
                     <img className="m-4" src="/images/tracty.png" alt="" />
             </div>
         </div>
     </div>
     <div className="container-fluid mt-5">
      <div className="row">
-            <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6">
+            <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 m-4">
                     <img className="ml-5 farmer01" src="/images/03.png" alt="" />
                     <p className="h3 mt-5 font-weight-bold">For Youths (Agents) </p>
                     <p> Agents are our peers. they are farmers assistants. Their interest in farming now paidoff as they now secure general economic contributing jobs and they 
@@ -134,7 +134,7 @@ class Rows extends Component {
                     </Link> 
             </div>  
             {/* <div className="col-1"></div>              */}
-            <div className="col-sm-12 col-lg-12 col-xl-6">
+            <div className="col-sm-12 col-lg-12 col-xl-5">
                     <img className="m-4" src="/images/youth.png" alt="" />
             </div>
         </div>
