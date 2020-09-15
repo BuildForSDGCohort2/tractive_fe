@@ -29,10 +29,18 @@
         
 }
 
+<<<<<<< HEAD
 .contact-formHeader{
 	color: #84E917 !important;
 }
 
+=======
+/*.contact-formHeader{
+	text-align: left;
+	margin-left: 265px;
+}
+*/
+>>>>>>> e933f3de718a7da8ab4d312a376fea378cd64b65
 
 @media (max-width: 979px) {
 	/*.contact-formHeader{

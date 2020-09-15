@@ -34,7 +34,11 @@ export default class ContactUs extends Component {
                             <input type="email" className="form-control" aria-describedby="emailHelp" placeholder="Email Address" />
                         </div>
                         <div className="form-group">
+<<<<<<< HEAD
                             <input type="text" className="form-control" aria-describedby="emailHelp" placeholder="Subject" />
+=======
+                            <input type="email" className="form-control" aria-describedby="emailHelp" placeholder="Subject" />
+>>>>>>> e933f3de718a7da8ab4d312a376fea378cd64b65
                         </div>
                         <div className="form-group">
                             <textarea className="form-control" rows="4" placeholder="Enter your message"></textarea>

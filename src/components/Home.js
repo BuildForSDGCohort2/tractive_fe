@@ -19,7 +19,11 @@ class Home extends Component {
           <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-white font-weight-bold">
             <h3 className="display-3">Welcome to Tractive</h3>
             <h1 className="mt-3"> We connect farmers looking for tractors with tractor owners looking for work</h1>
+<<<<<<< HEAD
             <Link to="/about">
+=======
+            <Link to="">
+>>>>>>> e933f3de718a7da8ab4d312a376fea378cd64b65
                       <button className="btn btn-success btn-large morebtn">Learn more »</button>
             </Link> 
           </div>
