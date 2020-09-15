@@ -77,11 +77,7 @@ class Rows extends Component {
                     <p    > <span> <img src="images/bullet.png" alt="" /> </span> Get access to markets and marketers as well as transporters of farm produce without spending a single kobo </p>
                     <br/>
                     <p  className="font-weight-bold"> <span><img src="images/bullet.png" alt="" /> </span> Are you a farmer looking for durable & reliable tractors and farm equipments that helps you finish jobs in hours instead of weeks. </p>
-<<<<<<< HEAD
                     <Link to="/farmer-register">
-=======
-                    <Link to="">
->>>>>>> e933f3de718a7da8ab4d312a376fea378cd64b65
                       <button className="btn btn-success btn-large morebtn">Get tractors »</button>
                     </Link> 
             </div>  
@@ -107,11 +103,7 @@ class Rows extends Component {
                                                                                     <br/>
                      <p  className="font-weight-bold" > <span> <img src="images/bullet.png" alt="" /> </span> Do you own a tractor or any implement? We help you make extra cash with
                       your farm equipment and provide a number of tools to enhance your business and operations.</p>
-<<<<<<< HEAD
                     <Link to="/owner-register">
-=======
-                    <Link to="">
->>>>>>> e933f3de718a7da8ab4d312a376fea378cd64b65
                       <button className="btn btn-success btn-large morebtn">Get Customers »</button>
                     </Link> 
             </div>  
@@ -137,11 +129,7 @@ class Rows extends Component {
                     <br/>
                    <p className="font-weight-bold"> <span> <img src="images/bullet.png" alt="" /> </span> Are you looking for a life-time opportunities in Agritech business? 
                        We will train you and add you to our own network of booking agents to help reach farmers in need of tractor service.</p> 
-<<<<<<< HEAD
                     <Link to="/agent-register">
-=======
-                    <Link to="">
->>>>>>> e933f3de718a7da8ab4d312a376fea378cd64b65
                       <button className="btn btn-success btn-large morebtn">Make Money »</button>
                     </Link> 
             </div>  
@@ -191,11 +179,7 @@ class Rows extends Component {
             <div className="col-12 text-center GetInTouch">
                 <p className="h3 text-white font-weight-bold touch mt-5">Get In Touch</p>
                 <p className="text-white mt-3">Join us as we harness the power of mechanization in the transformation of our agricultural sector.</p>
-<<<<<<< HEAD
                 <Link to="/join-us">
-=======
-                <Link to="">
->>>>>>> e933f3de718a7da8ab4d312a376fea378cd64b65
                       <button className="btn btn-success btn-large morebtn">Get In Touch »</button>
                 </Link> 
             </div>

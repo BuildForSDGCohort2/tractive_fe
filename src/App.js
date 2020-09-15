@@ -10,7 +10,6 @@ import Owner from './components/Owner';
 import Footer from "./components/Footer"
 import ContactUs from "./components/ContactUs"
 import AboutUs from "./components/AboutUs"
-<<<<<<< HEAD
 import JoinUs from "./components/JoinUsPage"
 import FarmerRegister from "./components/FarmerRegister"
 import OwnerRegister from "./components/OwnerRegister"
@@ -21,8 +20,6 @@ import Login from "./components/Login"
 import Profile from "./components/Profile"
 import TermsAndConditions  from "./components/TermsAndCondition"
 
-=======
->>>>>>> e933f3de718a7da8ab4d312a376fea378cd64b65
 
 // import EditUser from './components/EditUser';
 
@@ -36,7 +33,6 @@ class App extends Component {
           <Route path="/" exact strict component={Home}/>
           <Route path="/contact-us" exact component={ContactUs}/>
           <Route path="/about" exact component={AboutUs}/>
-<<<<<<< HEAD
           <Route path="/join-us" exact component={JoinUs}/>
           <Route path="/farmer-register" exact component={FarmerRegister}/>
           <Route path="/owner-register" exact component={OwnerRegister}/>
@@ -46,9 +42,6 @@ class App extends Component {
           <Route path="/login" exact component={Login}/>
           <Route path="/profile" exact component={Profile}/>
           <Route path="/terms-and-conditions" exact component={TermsAndConditions }/>
-=======
-          {/* <Rows /> */}
->>>>>>> e933f3de718a7da8ab4d312a376fea378cd64b65
           <Route path="/owners/signup" exact strict component={Owner}/>
         </div>
         <Footer />

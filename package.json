@@ -3,12 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-<<<<<<< HEAD
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
     "@fortawesome/react-fontawesome": "^0.1.11",
-=======
->>>>>>> e933f3de718a7da8ab4d312a376fea378cd64b65
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -20,12 +17,8 @@
     "react-bootstrap-carousel": "^4.0.7",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-<<<<<<< HEAD
     "react-scripts": "^2.1.8",
     "reactstrap": "^8.5.1"
-=======
-    "react-scripts": "^2.1.8"
->>>>>>> e933f3de718a7da8ab4d312a376fea378cd64b65
   },
   "scripts": {
     "start": "react-scripts start",

@@ -33,11 +33,7 @@ export default class Navbar extends Component {
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
                     <NavLink
-<<<<<<< HEAD
                         className="nav-link text-light font-weight-bold" activeClassName="is-active" to="/fleets">Fleets
-=======
-                        className="nav-link text-light font-weight-bold" activeClassName="is-active" to="">Fleets
->>>>>>> e933f3de718a7da8ab4d312a376fea378cd64b65
                         <span class="sr-only">(current)</span>
                     </NavLink>
                 </li>
@@ -47,7 +43,6 @@ export default class Navbar extends Component {
                     </NavLink>               
                 </li>
                 <li className="nav-item">
-<<<<<<< HEAD
                     <Link className="nav-link text-light font-weight-bold " to="/about">About Us
                     </Link>               
                 </li>
@@ -64,15 +59,6 @@ export default class Navbar extends Component {
                     </Link>               
                 </li>
                
-=======
-                    <Link className="nav-link text-light font-weight-bold " to="about">About Us
-                    </Link>               
-                </li>
-                <li className="nav-item">
-                    <Link className="nav-link text-light font-weight-bold" to="">Join Us
-                    </Link>               
-                </li>
->>>>>>> e933f3de718a7da8ab4d312a376fea378cd64b65
         </ul>
       </div>
     </div>
