@@ -59,7 +59,6 @@ export default class PostFleet extends Component {
 
        }
 
-
   render() {
     return (
             <div className="mb-5 fleet">
@@ -73,7 +72,6 @@ export default class PostFleet extends Component {
                     <div className="col-sm-12 col-md-12 col-lg-12 fleetpost">
                         <p className="h5 mt-5 mb-4 ml-4">Fill out the form below to post a fleet:</p>
                         <form className="m-4" id="contact-form" onSubmit={this.postFleet} >
-                    
                         <div className="form-group">
                             <input required type="text" className="form-control" onChange={this.handleNameChange} value={this.state.name} placeholder="Fleet Name e.g Tractor, Sprayer etc." />
                         </div>
