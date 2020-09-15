@@ -5,6 +5,9 @@ This will go along way to improve farm operations.
 To contribute to this project:
 
 ## Local Setup 
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/030824fa7a7d458289823920bfd4fdb3)](https://app.codacy.com/gh/BuildForSDGCohort2/tractive_fe?utm_source=github.com&utm_medium=referral&utm_content=BuildForSDGCohort2/tractive_fe&utm_campaign=Badge_Grade_Dashboard)
+
 ###  Requirements 
 * Node ( v 12 is recommended)
 
